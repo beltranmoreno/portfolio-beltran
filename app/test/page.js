@@ -2,8 +2,8 @@ import React from 'react';
 import Box from '../components/Box';
 
 const ProfileCard = () => {
-    return (
-        <div className="min-h-screen bg-black flex items-center justify-center">
+  return (
+    <div className="min-h-screen bg-black flex items-center justify-center">
       <div className="grid grid-cols-6 grid-rows-6 gap-4 p-8 rounded-lg">
         <Box colSpan={2}>Experience</Box>
         <Box colSpan={2}>UI/UX Design</Box>
@@ -19,7 +19,7 @@ const ProfileCard = () => {
         <Box colSpan={2}>LinkedIn</Box>
       </div>
     </div>
-    );
+  );
 }
 
 export default ProfileCard;
